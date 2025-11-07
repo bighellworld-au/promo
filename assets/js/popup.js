@@ -52,10 +52,6 @@
   const isHome = /(^\/$|lander\.html$)/.test(path);
   if (!isHome) return;
 
-  // Only show once per session
-  if (sessionStorage.getItem('ageGateShown') === '1') return;
-  sessionStorage.setItem('ageGateShown', '1');
-
   // Theme tokens
   const vars = `
     :root {
