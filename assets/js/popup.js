@@ -193,7 +193,7 @@
         helper.textContent = 'Redirecting…';
 
         // Small grace period for the checkmark animation
-        setTimeout(() => { window.location.href = '/promo/privacy.html'; }, 600);
+        setTimeout(() => { window.location.href = 'index.html'; }, 600);
       }, 5000);
     }, 300); // "few milliseconds" before starting the spinner
   }
